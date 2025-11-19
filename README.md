@@ -1,6 +1,6 @@
-# 文本复杂度分析（MAIN）
+# 文本丰富度分析（MAIN）
 
-这是一个用于对中文文本进行**复杂度指标计算**的 Python 项目。它利用 [LTP（Language Technology Platform）](https://ltp.ai/) 进行中文分词、词性标注和依存句法分析，并计算一系列基于词汇和句法属性的文本复杂度指标。
+这是一个用于对中文文本进行**丰富度指标计算**的 Python 项目。它利用 [LTP（Language Technology Platform）](https://ltp.ai/) 进行中文分词、词性标注和依存句法分析，并计算一系列基于词汇和句法属性的文本复杂度指标。
 
 ## 📌 项目概述
 
@@ -9,10 +9,10 @@
 1.  利用 LTP 对大规模中文文本（如 CSV 文件中的文本列）进行**批量**预处理（分词、词性标注、依存句法分析）。
 2.  计算每个文本的七项复杂度指标：
     * **SR, SC, SN**：与名词化（Nominalization）相关的指标。
-    * **Lexical Entropy (词汇熵)**：衡量词汇多样性。
-    * **Syntactic Entropy (句法熵)**：衡量依存关系的多样性。
-    * **Syntactic Entropy Norm (归一化句法熵)**：归一化后的句法熵。
-    * **SA (Semantic Abstraction/语义抽象度)**：衡量句子中名词、动词、形容词、副词的抽象程度。
+    * **Lexical Entropy (词汇丰富度)**：衡量词汇多样性。
+    * **Syntactic Entropy (句法丰富度)**：衡量依存关系的多样性。
+    * **Syntactic Entropy Norm (归一化句法丰富度)**：归一化后的句法熵。
+    * **SA (Semantic Abstraction/语义丰富度)**：衡量句子中名词、动词、形容词、副词的丰富度。
 3.  将计算结果以新列的形式，写回到原始 CSV 文件中。
 
 ## ⚙️ 依赖环境
